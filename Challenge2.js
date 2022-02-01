@@ -25,14 +25,10 @@ let johnsHeight = 1.95;
 let johnsBMI = johnsWeight / johnsHeight ** 2;
 
 if(marksBMI > johnsBMI){
-	console.log("Data Set 1: Mark\'s BMI is higher than John\'s!");
-	console.log(`Data Set 1: Mark\'s BMI (${marksBMI}) is higher than John\'s! (${johnsBMI})`);
+	console.log(`Data Set 1: Mark\'s BMI (${marksBMI}) is higher than John\'s BMI (${johnsBMI})!`);
 }else{
-	console.log("Data Set 1: John\'s BMI is higher than Mark\'s!");
-	console.log(`Data Set 1: Mark\'s BMI (${marksBMI}) is higher than John\'s! (${johnsBMI})`);
+	console.log(`Data Set 1: John\'s BMI (${marksBMI}) is higher than Mark\'s BMI (${johnsBMI})!`);
 }
-
-console.log("----------------------------------")
 
 // Data Set #2
 marksWeight = 95;
@@ -44,9 +40,7 @@ johnsHeight = 1.76;
 johnsBMI = johnsWeight / johnsHeight ** 2;
 
 if(marksBMI > johnsBMI){
-	console.log("Data Set 2: Mark\'s BMI is higher than John\'s!");
-	console.log(`Data Set 2: Mark\'s BMI (${marksBMI}) is higher than John\'s! (${johnsBMI})`);
+	console.log(`Data Set 2: Mark\'s BMI (${marksBMI}) is higher than John\'s BMI (${johnsBMI})!`);
 }else{
-	console.log("Data Set 2: John\'s BMI is higher than Mark\'s!");
-	console.log(`Data Set 2: John\'s BMI (${johnsBMI}) is higher than Marks\'s! (${marksBMI})`);
+	console.log(`Data Set 2: John\'s BMI (${johnsBMI}) is higher than Marks\'s BMI (${marksBMI})!`);
 }
