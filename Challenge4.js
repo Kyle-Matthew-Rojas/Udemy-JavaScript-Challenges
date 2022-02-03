@@ -24,15 +24,6 @@ let data = [275, 40, 430];
 
 for(count = 0; count < 3; count++){
     bill = data[count];
-
-    switch(bill){
-        case bill >= 50 && bill <= 300:
-            tip = bill * 0.15;
-            break;
-        default:
-            tip = bill * 0.2;
-            break;
-    };
-    
+    let tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
     console.log(tip);
 }
